@@ -1,4 +1,4 @@
-/underline{ml summer school-day 1}
+<ins>ml summer school-day 1</ins>
 
 equivariance and invariance
 equivariance = output undergo exactly the same tranformation as applied to the input
