@@ -6,7 +6,7 @@ invariance = output stay constant regardless of the applied transformation
 
 
 equivariance is used in
-- protein foldering
+- protein folding
 - protein docking
 - molucular dynamics
 - solid state physics
@@ -76,7 +76,7 @@ a chem fingerprint is a list of bin values which characterize a molecule
 
 substructure searching is known to be in the non-polynomial complete (NP-complete) class of computational problems.
 
-we cant detect the presence of a substructure in polynomial time but we can often detect the absence of a substructure much. faster often in linear time, an algorithm to detect the absence of a substructure called a screen with 100% confidence and presence with a lower confidence usually suffice in this case
+we cant detect the presence of a substructure in polynomial time but we can often detect the absence of a substructure much faster often in linear time, an algorithm to detect the absence of a substructure (called a screen) with 100% confidence and presence with a lower confidence usually suffice in this case
 
 type of screen for screening chemical databases
 
@@ -101,7 +101,7 @@ fingerprint folding helps optimize the info density in a set of fingerprint, thu
 
 Fingerprints and Reactions
 - Structural reaction fingerprints
-combinattion of the normal structural fingerprints for the reactant and product molecules within the reaction, which is the bitwise-OR of the following
+combination of the normal structural fingerprints for the reactant and product molecules within the reaction, which is the bitwise-OR of the following
 	- fingerprint of the reactant part
 	- fingerprint of the product part
 	- bit-shifted fingerprint of the product part
