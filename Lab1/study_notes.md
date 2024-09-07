@@ -83,9 +83,8 @@ type of screen for screening chemical databases
 
 - structural keys - bitmaps where each bit represents the presence or absence of a specific structural feature (pattern)
 
- ```pattern & molecule```
-
- the above bit operation will indicate what structure in the pattern is present in the molecule (indicated by the bit position)
+ ```pattern & molecule```\
+ a simple AND operation will indicate what structure in the pattern is present in the molecule (indicated by the bit position)
 
 - fingerprints - unlike structural keys, fingerprints does not attribute any meaning to any particular bit
 structural keys are usually very sparse. a fingerprint can be much smaller with the same discriminating power
